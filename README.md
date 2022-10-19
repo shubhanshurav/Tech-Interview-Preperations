@@ -1,4 +1,6 @@
 # DSA-Questions-Solutions
 
 ## Topics
-1. [Arrays](https://github.com/shubhanshurav/DSA-Questions-Solutions/tree/master/Arrays)
+. [Arrays](https://github.com/shubhanshurav/DSA-Questions-Solutions/tree/master/Arrays)
+. [Linked List] (https://github.com/shubhanshurav/DSA-Questions-Solutions/tree/master/Linked-List)
+. [Recursion] (https://github.com/shubhanshurav/DSA-Questions-Solutions/tree/master/Recursion)
