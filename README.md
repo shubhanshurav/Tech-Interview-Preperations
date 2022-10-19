@@ -31,4 +31,5 @@
 * [Backtracking](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/09%5D.%20Backtracking)
 
 ## LOVE BABBAR COMPLETE DSA SHEET(450 QUESTIONS)
-https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/3%5D.%20450%20DSA%20by%20Love%20Babbar#arrays
+#Array
+(https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/3%5D.%20450%20DSA%20by%20Love%20Babbar#arrays)
