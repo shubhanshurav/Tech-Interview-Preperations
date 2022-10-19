@@ -1,5 +1,5 @@
 # DSA-Questions-Solutions
-
+https://camo.githubusercontent.com/27f61dac9540696154ed9b3a0fe99e9b3f98c8db3fb6114e262c77f4faa489fa/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4172726179732d34342d627269676874677265656e3f7374796c653d666f722d7468652d6261646765
 ## Topics
 * [Arrays](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/01%5D.%20Array)
 * [2D Arrays](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/02%5D.%202D%20Array)
@@ -18,4 +18,3 @@
 * [Graph](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/15%5D.%20Graph) 
 * [Tries](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/16%5D.%20Trie)
 * [Segement Tree](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/17%5D.%20Segment-Tree)
-* [Priority Queue](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/17%5D.%20Segment-Tree)
