@@ -19,6 +19,8 @@
 * [Tries](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/16%5D.%20Trie)
 * [Segement Tree](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/17%5D.%20Segment-Tree)
 
+
+
 ## Algorithm
 * [Searching Algorithm](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/01%5D.%20Searching%20Algorithms)
 * [Sorting Algorithm](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/02%5D.%20Sorting%20Algorithms)
@@ -29,6 +31,8 @@
 * [Dynamic Programming](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/07%5D.%20Dynamic%20Programming)
 * [Divide & Conquer](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/08%5D.%20Divide%20and%20Counqer)
 * [Backtracking](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/09%5D.%20Backtracking)
+
+
 
 # LOVE BABBAR BHAIYA COMPLETE DSA SHEET(450 QUESTIONS)
 # [450 DSA Sheet](https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view)
@@ -723,6 +727,9 @@
 <br/>
 </details>
 
+
+
+
 # Striver Bhaiya Complete SDE Sheet:)
 # [30 Days of SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems)
 
@@ -909,8 +916,12 @@
 <br/>
 </details>
 
+
+
+
+
 # TECHNICAL SUBJECTS:)
-## OBJECT ORIENTED PROGRAMMING(OOPs)
+# OBJECT ORIENTED PROGRAMMING(OOPs)
 <h1 align='center'>OBJECT ORIENTED PROGRAMMING</h1><br>
 
 
@@ -1349,6 +1360,8 @@ int main() {
    - Operator overloading is defined as the standard operator can be redefined so that it has a different meaning when applied to the instances of a class. 
 - **Overloading :** 
    - Overloading is static Binding, whereas Overriding is dynamic Binding. Overloading is nothing but the same method with different arguments, and it may or may not return the same value in the same class itself. **Overriding** is the same method name with the same arguments and return types associated with the class and its child class.
+
+
 
 ## OPERATING SYSTEM :)
 <h1 align='center'>OPERATING SYSTEM</h1><br>
