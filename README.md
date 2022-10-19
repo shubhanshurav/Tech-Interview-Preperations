@@ -75,7 +75,7 @@
 
 
 
-## Topics
+## Data Structure & Algorithm
 * [Arrays](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/01%5D.%20Array)
 * [2D Arrays](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/02%5D.%202D%20Array)
 * [String](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/04%5D.%20Strings)
@@ -93,3 +93,14 @@
 * [Graph](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/15%5D.%20Graph) 
 * [Tries](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/16%5D.%20Trie)
 * [Segement Tree](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/17%5D.%20Segment-Tree)
+
+## Algorithm
+* [Searching Algorithm](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/01%5D.%20Searching%20Algorithms)
+* [Sorting Algorithm](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/02%5D.%20Sorting%20Algorithms)
+* [Bitwise Algorihtm](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/03%5D.%20Bitwise%20Algorithms)
+* [Mathematical Algorithm](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/04%5D.%20Mathematical%20Algorithms)
+* [Geomatric Algorithm](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/05%5D.%20Geometric%20Algorithms)
+* [Greedy Algorithm](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/06%5D.%20Greedy)
+* [Dynamic Programming](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/07%5D.%20Dynamic%20Programming)
+* [Divide & Conquer](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/08%5D.%20Divide%20and%20Counqer)
+* [Backtracking](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/09%5D.%20Backtracking)
