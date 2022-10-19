@@ -1,4 +1,4 @@
-#~ DSA-Questions-Solutions
+# DSA-Questions-Solutions
 
 ## Data Structure & Algorithm
 * [Arrays](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/01%5D.%20Array)
