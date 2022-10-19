@@ -723,7 +723,7 @@
 <br/>
 </details>
 
-#Striver Bhaiya Complete SDE Sheet:)
+# Striver Bhaiya Complete SDE Sheet:)
 # [30 Days of SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems)
 
 ## Day-1: (Arrays)
@@ -908,3 +908,696 @@
 </div>
 <br/>
 </details>
+
+# TECHNICAL SUBJECTS:)
+## OBJECT ORIENTED PROGRAMMING(OOPs)
+<h1 align='center'>OBJECT ORIENTED PROGRAMMING</h1><br>
+
+
+## Object-Oriented Programming
+- **Object-Oriented Programming** is a methodology or paradigm to design a program using classes and objects. It simplifies the software development and maintenance by providing some concepts defined below :
+
+## Class
+- **Class** is a user-defined data type which defines its properties and its functions. Class is the only logical representation of the data. For example, Human being is a class. The body parts of a human being are its properties, and the actions performed by the body parts are known as functions. The class does not occupy any memory space till the time an object is instantiated.
+
+**`C++ Syntax (for class):`**
+```c++
+class student {
+   public: 
+     int id; // data member 
+     int mobile; 
+     string name; 
+     
+     int add(int x, int y) { // member functions 
+       return x + y; 
+   } 
+};
+```
+
+## Object
+- **Object** is a run-time entity. It is an instance of the class. An object can represent a person, place or any other item. An object can operate on both data members and member functions.
+
+**`C++ Syntax (for object):`**
+```c++
+student s = new student();
+```
+
+**Note:**
+- When an object is created using a new keyword, then space is allocated for the variable in a heap, and the starting address is stored in the stack memory. When an object is created without a new keyword, then space is not allocated in the heap memory, and the object contains the null value in the stack.
+
+## Inheritance
+- **Inheritance** is a process in which one object acquires all the properties and behaviors ofits parent object automatically. In such a way, you can reuse, extend or modify the attributes and behaviors which are defined in other classes. 
+- In C++, the class which inherits the members of another class is called derived class and the class whose members are inherited is called base class. The derived class is the specialized class for the base class.
+
+**`C++ Syntax :`**
+```c++
+class derived_class :: visibility-mode base_class; 
+visibility-modes = {private, protected, public}
+```
+
+**Types of Inheritance : `IMP`**
+1. Single inheritance :
+   - When one class inherits another class, it is known as single level inheritance.
+2. Multiple inheritance :
+   - Multiple inheritance is the process of deriving a new class that inherits the attributes from two or more classes.
+3. Multilevel inheritance :
+   - Multilevel inheritance is a process of deriving a class from another derived class.
+4. Hierarchical inheritance :
+   - Hierarchical inheritance is defined as the process of deriving more than one class from a base class.
+5. Hybrid inheritance : 
+   - Hybrid inheritance is a combination of simple, multiple inheritance and hierarchical inheritance.
+
+## Encapsulation
+- **Encapsulation** is the process of combining data and functions into a single unit called class. In Encapsulation, the data is not accessed directly; it is accessed through the functions present inside the class. In simpler words, attributes of the class are kept private and public getter and setter methods are provided to manipulate these attributes. Thus, encapsulation makes the concept of data hiding possible.(**Data hiding:** a language feature to restrict access to members of an object, reducing the negative effect due to dependencies. e.g. "protected", "private" feature in C++).
+
+## Abstraction
+- We try to obtain an **abstract view**, model or structure of a real life problem, and reduce its unnecessary details. With definition of properties of problems, including the data which are affected and the operations which are identified, the model abstracted from problems can be a standard solution to this type of problems. It is an efficient way since there are nebulous real-life problems that have similar properties.
+
+***Data binding :*** 
+- Data binding is a process of binding the application UI and business logic. Any change made in the business logic will reflect directly to the application UI.
+
+## Polymorphism
+- **Polymorphism** is the ability to present the same interface for differing underlying forms (data types). With polymorphism, each of these classes will have different underlying data. Apoint shape needs only two coordinates (assuming it's in a two-dimensional space of course). Acircle needs a center and radius. Asquare or rectangle needs two coordinates for the top left and bottom right corners and (possibly) a rotation. An irregular polygon needs a series oflines. Precisely, Poly means ‘many’ and morphism means ‘forms’.
+
+**Types of Polymorphism**
+1. Compile Time Polymorphism (Static)
+2. Runtime Polymorphism (Dynamic)
+
+### Compile Time Polymorphism :
+- The polymorphism which is implemented at the compile time is known as compile-time polymorphism.
+**Example:-** 
+
+   - ***Method Overloading :***
+      - Method overloading is a technique which allows you to have more than one function with the same function name but with different functionality. Method overloading can be possible on the following basis:
+        
+        1. The return type of the overloaded function. 
+        2. The type of the parameters passed to the function.
+        3. The number of parameters passed to the function.
+        
+        **`C++ Sample Code :`** 
+        ```c++
+        #include<bits/stdc++.h> 
+        using namespace std; 
+        
+        class Add { 
+            public:
+                int add(int a,int b){ 
+                    return (a + b); 
+                }
+                int add(int a,int b,int c){ 
+                    return (a + b + c);
+                } 
+            }; 
+        int main(){ 
+            Add obj; 
+            int res1,res2; 
+            res1 = obj.add(2,3); 
+            res2 = obj.add(2,3,4); 
+            cout << res1 << " " << res2 << endl; 
+            return 0; 
+        }
+        
+        /*Output : 5 9 add()is an overloaded function with a different number of parameters. */
+        ```
+      
+### Runtime Polymorphism :
+- Runtime polymorphism is also known as dynamic polymorphism. Function overriding is an example of runtime polymorphism. Function overriding means when the child class contains the method which is already present in the parent class. Hence, the child class overrides the method of the parent class. In case offunction overriding, parent and child classes both contain the same function with a different definition. The call to the function is determined at runtime is known as runtime polymorphism.
+
+**`C++ Sample Code :`** 
+```c++
+#include <bits/stdc++.h> 
+using namespace std; 
+
+class Base_class{ 
+    public: 
+        virtual void show(){ 
+            cout << "FAANG Preparation base" << endl; 
+        }
+};
+class Derived_class : public Base_class{ 
+    public: 
+        void show(){
+            cout << "FAANG Preparation derived" << endl; 
+        }
+};
+
+int main(){ 
+    Base_class* b; 
+    Derived_class d; b = &d; 
+    b->show(); // prints the content of show() declared in derived 
+    class return 0;
+    }
+    
+// Output : FAANG Preparation derived
+```
+
+##  Constructor :
+- **Constructor** is a special method which is invoked automatically at the time of object creation. It is used to initialize the data members of new objects generally. The constructor in C++ has the same name as class or structure.
+- There can be **three types** of constructors in C++.
+   1. **Default constructor :** 
+      - Aconstructor which has no argument is known as default constructor. It is invoked at the time of creating an object. 
+   2. **Parameterized constructor :**
+      - Constructor which has parameters is called a parameterized constructor. It is used to provide different values to distinct objects. 
+   3. **Copy Constructor :** 
+      - A Copy constructor is an overloaded constructor used to declare and initialize an object from another object. 
+      - It is of two types :
+          1.  default copy constructor 
+          2.  user defined copy constructor 
+
+**`C++ Sample Code :`** 
+```c++
+#include <bits/stdc++.h> 
+using namespace std; 
+
+class go { 
+    public:
+        int x; 
+        go(int a){ // parameterized constructor.
+        x=a; 
+    }
+    go(go &i){ // copy constructor 
+        x = i.x; 
+    } 
+};
+int main(){ 
+    go a1(20); // Calling the parameterized constructor.
+    go a2(a1); // Calling the copy constructor. 
+    cout << a2.x << endl; 
+    return 0; 
+}
+
+// Output : 20
+```
+
+## Destructor : 
+- Adestructor works opposite to constructor; it destructs the objects of classes. It can be defined **only once** in a class. Like constructors, it is invoked automatically. Adestructor is defined like a constructor. It must have the same name as class, prefixed with a **tilde sign (~)**.
+
+**`C++ Sample Code :`** 
+```c++
+#include<bits/stdc++.h>
+using namespace std;
+
+class A{ 
+    public: // constructor and destructor are called automatically, once the object is instantiated 
+        A(){ 
+            cout << "Constructor in use" << endl; 
+        }
+        ~A(){
+            cout << "Destructor in use" << endl; 
+        }
+}; 
+    
+int main(){
+    Aa; Ab; 
+    return 0;
+}
+
+/*Output: Constructor in use Constructor in use Destructor in use Destructor in use */
+```
+
+## ‘this’ Pointer : 
+- **this** is a keyword that refers to the **current instance of the class**. There can be 3 main uses of **‘this’** keyword: 
+   1. It can be used **to pass the current object as a parameter to another method**. 
+   2. It can be used **to refer to the current class instance variable**. 
+   3. It can be used **to declare indexers**.
+
+**`C++ Sample Code :`** 
+```c++
+struct node{ 
+    int data; 
+    node *next; 
+    
+    node(int x){ 
+        this->data = x; 
+        this->next = NULL; 
+    }
+}
+```
+
+## Friend Function : 
+- Friend function acts as a friend of the class. **It can access the private and protected members of the class**. The friend function is not a member of the class, but it must be listed in the class definition. The non-member function cannot access the private data of the class. Sometimes, it is necessary for the non-member function to access the data. **The friend function is a non-member function and has the ability to access the private data of the class**.
+
+**Note :** 
+   1. Afriend function cannot access the private members directly, it has to use an object name and dot operator with each member name. 
+   2. Friend function uses objects as arguments.
+    
+**`C++ Sample Code :` `IMP`** 
+```c++
+#include <bits/stdc++.h>
+using namespace std; 
+
+class A{
+    int a = 2; 
+    int b = 4; 
+    
+    public:// friend function friend 
+        int mul(Ak){ 
+            return (k.a * k.b); 
+        }
+};
+
+int main(){
+    Aobj; 
+    int res = mul(obj); 
+    cout << res << endl;
+    return 0;
+}
+
+// Output : 8
+```
+
+## Aggregation : 
+- It is a process in which one class defines another class as any entity reference. **It is another way to reuse the class**. It is a form of association that represents the HAS-Arelationship.
+
+## Virtual Function `IMP` : 
+- Avirtualfunction is used to replace the implementation provided by the base class. The replacement is always called whenever the object in question is actually of the derived class, even if the object is accessed by a base pointer rather than a derived pointer. 
+
+   1. **A virtual function is a member function which is present in the base class and redefined by the derived class**. 
+   2. When we use the same function name in both base and derived class, **the function in base class is declared with a keyword virtual**. 
+   3. When the function is made virtual, then C++ determines at run-time which function is to be called based on the type of the object pointed by the base class pointer. **Thus, by making the base class pointer to point to different objects, we can execute different versions of the virtual functions**. 
+
+**Key Points :** 
+   1. Virtualfunctions cannot be static. 
+   2. Aclass may have a virtual destructor but it cannot have a virtual constructor.
+
+**`C++ Sample Code :`** 
+```c++
+#include <bits/stdc++.h>
+using namespace std; 
+
+class base { 
+    public:
+        // virtualfunction (re-defined in the derived class) 
+        virtual void print(){ 
+            cout << "print base class" << endl; 
+        }
+        
+        void show(){ 
+            cout << "show base class" << endl; 
+        }
+};
+
+class derived : public base { 
+    public:
+        void print(){
+        cout << "print derived class" << endl; 
+        }
+        
+        void show(){ 
+            cout << "show derived class" << endl; 
+        }
+}; 
+
+int main(){ 
+    base* bptr; 
+    derived d;
+    bptr = &d; 
+    // virtualfunction, binded at runtime 
+    bptr->print(); 
+    
+    // Non-virtualfunction, binded at compile time 
+    bptr->show(); 
+}
+
+/*output : print derived class // (impact of virtualfunction) show base class */
+```
+
+## PureVirtual Function : 
+- Apure virtualfunction is not used for performing any task. It only serves as a placeholder. 
+- Apure virtualfunction is a function declared in the base class that has no definition relative to the base class. 
+- Aclass containing the pure virtualfunction cannot be used to declare the objects ofits own, such classes are known as **abstract base classes**. 
+- The main objective of the base class is to provide the traits to the derived classes and to create the base pointer used for achieving the runtime polymorphism.
+
+**`C++ Syntax :`**
+```c++
+virtual void display() = 0;
+```
+
+**`C++ Sample Code :`** 
+```c++
+#include <bits/stdc++.h>
+using namespace std; 
+
+class Base{ 
+    public: 
+        virtual void show() = 0; 
+}; 
+
+class Derived : public Base { 
+    public: 
+        void show() { 
+        cout << "You can see me !" << endl;
+    }
+}; 
+
+int main(){ 
+    Base *bptr;
+    Derived d;
+    bptr = &d;
+    bptr->show();
+    return 0; 
+}
+
+// output : You can see me !
+```
+
+## Abstract Classes : 
+- In C++ class is made abstract by declaring at least one of its functions as a **pure virtual function**. Apure virtualfunction is specified by placing "= 0" in **its declaration. Its implementation must be provided by derived classes**.
+
+**`C++ Sample Code :`** 
+```c++
+#include <bits/stdc++.h>
+using namespace std; 
+
+// abstract class 
+class Shape{ 
+    public:
+        virtual void draw()=0;
+};
+
+class Rectangle : Shape{
+    public: void draw(){  
+        cout << "Rectangle" << endl;
+    }
+};
+
+class Square : Shape{
+    public: 
+        void draw(){ 
+            cout << "Square" << endl;
+        }
+};
+
+int main(){ 
+    Rectangle rec;
+    Square sq; 
+    rec.draw(); 
+    sq.draw(); 
+    return 0;
+}
+
+/*Output : Rectangle Square */
+```
+
+## Namespaces in C++ : 
+- The namespace is a logical division of the code which is designed to stop the naming conflict. 
+- The namespace defines the scope where the identifiers such as variables, class,functions are declared. 
+- **The main purpose of using namespace in C++ is to remove the ambiguity**. Ambiguity occurs when a different task occurs with the same name. 
+- For example: if there are two functions with the same name such as add(). In order to prevent this ambiguity, the namespace is used. Functions are declared in different namespaces. 
+- C++ consists of a standard namespace, i.e., std which contains inbuilt classes and functions. So, by using the statement "using namespace std;" includes the namespace "std" in our program.
+
+**`C++ Sample Code :`** 
+```c++
+#include <bits/stdc++.h>
+using namespace std; 
+
+// user-defined namespace
+namespace Add {
+    int a = 5, b = 5; 
+    
+    int add() { 
+        return (a + b);
+    }
+}
+
+int main() { 
+    int res = Add :: add();  // accessing the function inside namespace 
+    cout << res;
+}
+
+// output : 10
+```
+
+## Access Specifiers `IMP` : 
+- The access specifiers are used to define how functions and variables can be accessed outside the class. There are three types of access specifiers: 
+   1. **Private:** 
+      - Functions and variables declared as private can be accessed only within the same class, and they cannot be accessed outside the class they are declared. 
+   3. **Public:** 
+      - Functions and variables declared under public can be accessed from anywhere. 
+   5. **Protected:** 
+      - Functions and variables declared as protected cannot be accessed outside the class except a child class. This specifier is generally used in inheritance.
+ 
+<h2 align='center'>Key Notes</h2><br>
+
+- **Delete :** 
+   - Delete is used to release a unit of memory, **delete[]** is used to release an array. 
+- **Virtual inheritance :** 
+   - Virtual inheritance facilitates you to create only one copy of each object even if the object appears more than one in the hierarchy. 
+- **Function overloading :** 
+   - Function overloading is defined as we can have more than one version of the same function. The versions of a function will have different signatures meaning that they have a different set of parameters.
+- **Operator overloading :**
+   - Operator overloading is defined as the standard operator can be redefined so that it has a different meaning when applied to the instances of a class. 
+- **Overloading :** 
+   - Overloading is static Binding, whereas Overriding is dynamic Binding. Overloading is nothing but the same method with different arguments, and it may or may not return the same value in the same class itself. **Overriding** is the same method name with the same arguments and return types associated with the class and its child class.
+
+## OPERATING SYSTEM :)
+<h1 align='center'>OPERATING SYSTEM</h1><br>
+
+## Operating System :
+- An Operating System can be defined as an interface between user and hardware. It is responsible for the execution of all the processes, Resource Allocation, CPU management, File Management and many other tasks. The purpose of an operating system is to provide an environment in which a user can execute programs in a convenient and efficient manner.
+
+### Types of Operating Systems :
+- **Batch OS –**
+   - A set of similar jobs are stored in the main memory for execution. A job gets assigned to the CPU, only when the execution of the previous job completes
+
+- **Multiprogramming OS –**
+   - The main memory consists of jobs waiting for CPU time. The OS selects one of the processes and assigns it to the CPU. Whenever the executing process needs to wait for any other operation (like I/O), the OS selects another process from the job queue and assigns it to the CPU. This way, the CPU is never kept idle and the user gets the flavor of getting multiple tasks done at once.
+
+- **Multitasking OS –**
+   - Multitasking OS combines the benefits of Multiprogramming OS and CPU scheduling to perform quick switches between jobs. The switch is so quick that the user can interact with each program as it runs. 
+
+- **Time Sharing OS –**
+   - Time-sharing systems require interaction with the user to instruct the OS to perform various tasks. The OS responds with an output. The instructions are usually given through an input device like the keyboard. 
+
+- **Real Time OS –**
+   - Real-Time OS are usually built for dedicated systems to accomplish a specific set of tasks within deadlines.
+
+## Process : 
+- A process is a program under execution. **The value of the program counter (PC) indicates the address of the next instruction of the process being executed**. Each process is represented by a Process Control Block (PCB).
+
+### Process Scheduling :
+- **Arrival Time –** 
+   - Time at which the process arrives in the ready queue.
+- **Completion Time –** 
+   - Time at which process completes its execution.
+- **Burst Time –** 
+   - Time required by a process for CPU execution.
+- **Turn Around Time –** 
+   - Time Difference between completion time and arrival time. 
+   - **`Turn Around Time = Completion Time - Arrival Time`**
+- **Waiting Time (WT) –** 
+   - Time Difference between turn around time and burst time. 
+   - **`Waiting Time = Turnaround Time - Burst Time`**
+
+## Thread `Important` : 
+- A thread is a lightweight process and forms the basic unit of CPU utilization. A process can perform more than one task at the same time by including multiple threads. 
+   - A thread has its own program counter, register set, and stack 
+   - A thread shares resources with other threads of the same process: the code section, the data section, files and signals. 
+
+### Note : 
+- A new thread, or a child process of a given process, can be introduced by using the fork() system call. A process with n fork() system call generates 2^n – 1 child processes. 
+- There are two types of threads: 
+   - User threads (User threads are implemented by users) 
+   - Kernel threads (Kernel threads are implemented by OS)
+
+### Scheduling Algorithms : 
+- **First Come First Serve (FCFS) :**
+   -  Simplest scheduling algorithm that schedules according to arrival times of processes.
+
+- **Shortest Job First (SJF):**
+   -  Processes which have the shortest burst time are scheduled first.
+
+- **Shortest Remaining Time First (SRTF):**
+   -  It is a preemptive mode of SJF algorithm in which jobs are scheduled according to the shortest remaining time.
+
+- **Round Robin (RR) Scheduling:**
+   -  Each process is assigned a fixed time, in a cyclic way. 
+   -  The period of time for which a process or job is allowed to run in a pre-emptive method is called time quantum.
+   
+ - **Priority Based scheduling (Non Preemptive):**
+   -  In this scheduling, processes are scheduled according to their priorities, i.e., highest priority process is scheduled first. 
+   -  If priorities of two processes match, then scheduling is according to the arrival time.
+
+- **Highest Response Ratio Next (HRRN):**
+   -  In this scheduling, processes with the highest response ratio are scheduled. This algorithm avoids starvation. 
+   -  `Response Ratio = (Waiting Time + Burst time) / Burst time` 
+
+- **Multilevel Queue Scheduling (MLQ):**
+   -  According to the priority of the process, processes are placed in the different queues. Generally high priority processes are placed in the top level queue. Only after completion of processes from the top level queue, lower level queued processes are scheduled.
+
+- **Multilevel Feedback Queue (MLFQ) Scheduling:**
+   -  It allows the process to move in between queues. The idea is to separate processes according to the characteristics of their CPU bursts. If a process uses too much CPU time, it is moved to a lower-priority queue.
+
+### The Critical Section Problem:
+- **Critical Section –** 
+   - The portion of the code in the program where shared variables are accessed and/or updated.
+- **Remainder Section –** 
+   - The remaining portion of the program excluding the Critical Section.
+- **Race around Condition –** 
+   - The final output of the code depends on the order in which the variables are accessed. This is termed as the race around condition.
+
+### A solution for the critical section problem must satisfy the following three conditions: 
+- **Mutual Exclusion –** 
+   - If a process Pi is executing in its critical section, then no other process is allowed to enter into the critical section. 
+- **Progress –** 
+   - If no process is executing in the critical section, then the decision of a process to enter a critical section cannot be made by any other process that is executing in its remainder section. The selection of the process cannot be postponed indefinitely.
+- **Bounded Waiting –** 
+   - There exists a bound on the number of times other processes can enter into the critical section after a process has made a request to access the critical section and before the request is granted.
+
+## Synchronization Tools: 
+- **Semaphore :** 
+   - Semaphore is a protected variable or abstract data type that is used to lock the resource being used. The value of the semaphore indicates the status of a common resource. 
+   - There are two types of semaphores: 
+      - **Binary semaphores** (Binary semaphores take only 0 and 1 as value and are used to implement mutual exclusion and synchronize concurrent processes.) 
+      - **Counting semaphores** (A counting semaphore is an integer variable whose value can range over an unrestricted domain.)
+      - **Mutex** (A mutex provides mutual exclusion, either producer or consumer can have the key (mutex) and proceed with their work. As long as the buffer is filled by the producer, the consumer needs to wait, and vice versa. At any point of time, only one thread can work with the entire buffer. The concept can be generalized using semaphore.)
+
+## Deadlocks `Important`: 
+- A situation where a set of processes are blocked because each process is holding a resource and waiting for another resource acquired by some other process. Deadlock can arise if following four conditions hold simultaneously (Necessary Conditions): 
+   - Mutual Exclusion – One or more than one resource is non-sharable (Only one process can use at a time).
+   - Hold and Wait – A process is holding at least one resource and waiting for resources.
+   - No Preemption – A resource cannot be taken from a process unless the process releases the resource.
+   - Circular Wait – A set of processes are waiting for each other in circular form. 
+
+- **Methods for handling deadlock:** 
+   - There are three ways to handle deadlock 1. 
+      - Deadlock prevention or avoidance : 
+         - The idea is to not let the system into a deadlock state.
+      - Deadlock detection and recovery : 
+         - Let deadlock occur, then do preemption to handle it once occurred.
+      - Ignore the problem all together : 
+         - If deadlock is very rare, then let it happen and reboot the system. This is the approach that both Windows and UNIX take
+
+- **Banker's algorithm** is used to avoid deadlock. It is one of the deadlock-avoidance methods. It is named as Banker's algorithm on the banking system where a bank never allocates available cash in such a manner that it can no longer satisfy the requirements of all of its customers.
+
+- **Memory Management:**
+   - These techniques allow the memory to be shared among multiple processes
+      - **Overlays –** 
+         - The memory should contain only those instructions and data that are required at a given time.
+      - **Swapping –** 
+         - In multiprogramming, the instructions that have used the time slice are swapped out from the memory
+
+- **Techniques :** 
+  - **Single Partition Allocation Schemes –** 
+     - The memory is divided into two parts. One part is kept to be used by the OS and the other is kept to be used by the users.
+  - **Multiple Partition Schemes –** 
+     - **Fixed Partition –** 
+        - The memory is divided into fixed size partitions. 
+     - **Variable Partition –**
+        - The memory is divided into variable sized partitions. 
+        - **Note :**
+           - Variable partition allocation schemes:
+           - **First Fit –** 
+              - The arriving process is allotted the first hole of memory in which it fits completely.
+           - **Best Fit –** 
+              - The arriving process is allotted the hole of memory in which it fits the best by leaving the minimum memory empty.
+           - **Worst Fit –** 
+              - The arriving process is allotted the hole of memory in which it leaves the maximum gap.
+
+   - Note: 
+      - Best fit does not necessarily give the best results for memory allocation.
+      - The cause of external fragmentation is the condition in Fixed partitioning and Variable partitioning saying that the entire process should be allocated in a contiguous memory location.Therefore Paging is used. 
+         - **Paging –** 
+            - The physical memory is divided into equal sized frames. The main memory is divided into fixed size pages. The size of a physical memory frame is equal to the size of a virtual memory frame. 
+         - **Segmentation –** 
+            - Segmentation is implemented to give users a view of memory. The logical address space is a collection of segments. Segmentation can be implemented with or without the use of paging.
+
+- **Page Fault:** 
+   - A page fault is a type of interrupt, raised by the hardware when a running program accesses a memory page that is mapped into the virtual address space, but not loaded in physical memory
+
+## Page Replacement Algorithms `Important` :
+- **First In First Out (FIFO) –** 
+   - This is the simplest page replacement algorithm. In this algorithm, the operating system keeps track of all pages in the memory in a queue, the oldest page is in the front of the queue. When a page needs to be replaced, the page in the front of the queue is selected for removal. 
+   - For example, consider page reference string 1, 3, 0, 3, 5, 6 and 3 page slots. Initially, all slots are empty, so when 1, 3, 0 come they are allocated to the empty slots —> 3 Page Faults. When 3 comes, it is already in memory so —> 0 Page Faults. Then 5 comes, it is not available in memory so it replaces the oldest page slot i.e 1. —> 1 Page Fault. Finally, 6 comes, it is also not available in memory so it replaces the oldest page slot i.e 3 —> 1 Page Fault. 
+ 
+   - **Belady’s anomaly:**
+      - Belady’s anomaly proves that it is possible to have more page faults when increasing the number of page frames while using the First in First Out (FIFO) page replacement algorithm. For example, if we consider reference string ( 3 2 1 0 3 2 4 3 2 1 0 4 ) and 3 slots, we get 9 total page faults, but if we increase slots to 4, we get 10 page faults.
+
+- **Optimal Page replacement –**
+   - In this algorithm, pages are replaced which are not used for the longest duration of time in the future. 
+   - Let us consider page reference string 7 0 1 2 0 3 0 4 2 3 0 3 2 and 4 page slots. Initially, all slots are empty, so when 7 0 1 2 are allocated to the empty slots —> 4 Page faults. 0 is already there so —> 0 Page fault. When 3 came it will take the place of 7 because it is not used for the longest duration of time in the future.—> 1 Page fault. 0 is already there so —> 0 Page fault. 4 will takes place of 1 —> 1 Page Fault. Now for the further page reference string —> 0 Page fault because they are already available in the memory. 
+   - Optimal page replacement is perfect, but not possible in practice as an operating system cannot know future requests. The use of Optimal Page replacement is to set up a benchmark so that other replacement algorithms can be analyzed against it.
+
+- **Least Recently Used (LRU) –**
+   - In this algorithm, the page will be replaced with the one which is least recently used. Let say the page reference string 7 0 1 2 0 3 0 4 2 3 0 3 2 . Initially, we had 4-page slots empty. Initially, all slots are empty, so when 7 0 1 2 are allocated to the empty slots —> 4 Page faults. 0 is already there so —> 0 Page fault. When 3 comes it will take the place of 7 because it is least recently used —> 1 Page fault. 0 is already in memory so —> 0 Page fault. 4 will take place of 1 —> 1 Page Fault. Now for the further page reference string —> 0 Page fault because they are already available in the memory.
+
+### Disk Scheduling: 
+- Disk scheduling is done by operating systems to schedule I/O requests arriving for disk. Disk scheduling is also known as I/O scheduling. 
+- **Seek Time:** 
+   - Seek time is the time taken to locate the disk arm to a specified track where the data is to be read or written.
+- **Rotational Latency:** 
+   - Rotational Latency is the time taken by the desired sector of disk to rotate into a position so that it can access the read/write heads.
+- **Transfer Time:** 
+   - Transfer time is the time to transfer the data. It depends on the rotating speed of the disk and number of bytes to be transferred.
+- **Disk Access Time:** 
+   - Seek Time + Rotational Latency + Transfer Time
+- **Disk Response Time:** 
+   - Response Time is the average of time spent by a request waiting to perform its I/O operation. Average Response time is the response time of all requests
+
+## Disk Scheduling Algorithms `Important`: 
+- **FCFS:** 
+   - FCFS is the simplest of all the Disk Scheduling Algorithms. In FCFS, the requests are addressed in the order they arrive in the disk queue. 
+- **SSTF:** 
+   - In SSTF (Shortest Seek Time First), requests having the shortest seek time are executed first. So, the seek time of every request is calculated in advance in a queue and then they are scheduled according to their calculated seek time. As a result, the request near the disk arm will get executed first.
+- **SCAN:** 
+   - In SCAN algorithm the disk arm moves into a particular direction and services the requests coming in its path and after reaching the end of the disk, it reverses its direction and again services the request arriving in its path. So, this algorithm works like an elevator and hence is also known as elevator algorithm.
+- **CSCAN:** 
+   - In SCAN algorithm, the disk arm again scans the path that has been scanned, after reversing its direction. So, it may be possible that too many requests are waiting at the other end or there may be zero or few requests pending at the scanned area.
+- **LOOK:** 
+   - It is similar to the SCAN disk scheduling algorithm except for the difference that the disk arm in spite of going to the end of the disk goes only to the last request to be serviced in front of the head and then reverses its direction from there only. Thus it prevents the extra delay which occurred due to unnecessary traversal to the end of the disk.
+- **CLOOK:** 
+   - As LOOK is similar to SCAN algorithm, CLOOK is similar to CSCAN disk scheduling algorithm. In CLOOK, the disk arm in spite of going to the end goes only to the last request to be serviced in front of the head and then from there goes to the other end’s last request. Thus, it also prevents the extra delay which occurred due to unnecessary traversal to the end of the disk.
+
+## KEY Terms:
+- **Real-time System**:
+   - Real-time system is used in the case when rigid-time requirements have been placed on the operation of a processor. It contains well defined and fixed time constraints.
+
+- **Monolithic Kernel**:
+   - A monolithic kernel is a kernel which includes all operating system code in a single executable image.
+
+- **Micro kernel**: 
+   - Microkernel is the kernel which runs minimal performance affecting services for the operating system. In the microkernel operating system all other operations are performed by the processor.
+   - **Macro Kernel**: 
+      - Macro Kernel is a combination of micro and monolithic kernel.
+
+- **Re-entrancy**: 
+   - It is a very useful memory saving technique that is used for multi-programmed time sharing systems. It provides functionality that multiple users can share a single copy of a program during the same period. It has two key aspects:The program code cannot modify itself and the local data for each user process must be stored separately. 
+ 
+- **Demand Paging**:
+   - Demand paging specifies that if an area of memory is not currently being used, it is swapped to disk to make room for an application's need.
+
+- **Virtual Memory** `Imp`:
+   - Virtual memory is a very useful memory management technique which enables processes to execute outside of memory. This technique is especially used when an executing program cannot fit in the physical memory. 
+
+- **RAID**:
+   - RAID stands for Redundant Array of Independent Disks. It is used to store the same data redundantly to improve the overall performance. There are 7 RAID levels.
+
+- **Logical Address**:
+   - Logical address space specifies the address that is generated by the CPU. On the other hand, physical address space specifies the address that is seen by the memory unit.
+
+- **Fragmentation**:
+   - Fragmentation is a phenomenon of memory wastage. It reduces the capacity and performance because space is used inefficiently.
+      - **Internal fragmentation:** 
+         - It occurs when we deal with the systems that have fixed size allocation units.
+      - **External fragmentation:** 
+         - It occurs when we deal with systems that have variable-size allocation units.
+
+- **Spooling**:
+   - Spooling is a process in which data is temporarily gathered to be used and executed by a device, program or the system. It is associated with printing. When different applications send output to the printer at the same time, spooling keeps these all jobs into a disk file and queues them accordingly to the printer. 
+
+- **Starvation**:
+   - Starvation is Resource management problem. In this problem, a waiting process does not get the resources it needs for a long time because the resources are being allocated to other processes.
+
+- **Aging**:
+   - Aging is a technique used to avoid starvation in the resource scheduling system.
+
+- **Advantages of multithreaded programming:**
+   - Enhance the responsiveness to the users.
+   - Resource sharing within the process.
+   - Economical
+   - Completely utilize the multiprocessing architecture.
+
+- **Thrashing**:
+   - Thrashing is a phenomenon in virtual memory schemes when the processor spends most of its time in swapping pages, rather than executing instructions.
+
+##
