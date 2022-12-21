@@ -6,7 +6,7 @@
 * [String](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/04%5D.%20Strings)
 * [Hashing](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/05%5D.%20Hashing)
 * [Recursion](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/03%5D.%20Recursion)
-* [Linked List](https://https://github.com/shubhanshurav/DSA-Questions-Solutions/tree/master/)
+* [Linked List](https://github.com/shubhanshurav/Complete-MAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/06%5D.%20Linked%20List/C%2B%2B)
 * [Doubly Linked List](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/07%5D.%20Doubly%20Linked%20List)
 * [Circular Linked List](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/08%5D.%20Circular%20Linked%20List)
 * [Stack](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/09%5D.%20Stack)
