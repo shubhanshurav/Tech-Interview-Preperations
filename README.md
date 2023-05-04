@@ -1,6 +1,7 @@
-# DSA-Questions-Solutions
+# DSA-Questions-Solutions:)
 
 ## Data Structure & Algorithm
+
 * [Arrays](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/01%5D.%20Array)
 * [2D Arrays](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/02%5D.%202D%20Array)
 * [String](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/04%5D.%20Strings)
