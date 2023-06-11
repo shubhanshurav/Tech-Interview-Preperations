@@ -25,46 +25,45 @@ Input: head = [1], pos = -1
 Output: false
 Explanation: There is no cycle in the linked list.
 
-.............................................................................................................
- Intuition: Using Two Pointers Approach
+............................................................................................................
+Intuition: Using Unordered Map
 .............................................................................................................
 
 Approach:)
- 
-1. Slow = head, fast = head
-2. Iterate While (fast != Null && fast->next != Null)
-    slow -> 1 step aage badao
-    fast -> 2 steps aage badao
-   (a). if slow == fast // means cycle exists
-        return true;
-3. Return false    //cycle does'nt exists
+
+1. Create a boolean type unordered map.
+2. Iterate over the Linked List
+    (a). Check if node is present in map or not using count() function
+    if present than return true
+    (b). map = true; // means cycle is find
+    (c). head = head -> next
+3. Return false
 
 .............................................................................................................
-Complexity
- .............................................................................................................
+Complexity:)
+.............................................................................................................
 
-- Time complexity: O(N)
-- Space complexity: O(1)
+1. Time complexity: O(N)
+2. Space complexity: O(N)
+
+.............................................................................................................
 
 */
-
 
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
 
-        //start both pointer from same head node 
-        ListNode *slow = head;
-        ListNode *fast = head;
+        unordered_map<ListNode*, bool> cycleDetect;
+        while(head!=NULL){
 
-        while(fast!=NULL and fast->next != NULL){
-            slow = slow -> next; // slow -> 1 step move krega
-            fast = fast -> next -> next; // fast -> 2 step move krega
-
-            //if cycle exists then return true
-            if(slow == fast) return true;
-        }
-   
-       return false;  //cycle does not exist   
+            if(cycleDetect.count(head)) return true;
+            
+            cycleDetect[head] = true;
+            head = head -> next;
+        }   
+        return false;
     }
 };
+
+
