@@ -26,7 +26,7 @@ Output: false
 Explanation: There is no cycle in the linked list.
 
 .............................................................................................................
- Intuition: Using Two Pointers Approach
+ Intuition: Using Two Pointers Approach(Floyd's Cycle Detection Algo)
 .............................................................................................................
 
 Approach:)
