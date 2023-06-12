@@ -2,19 +2,19 @@
 
 ## Data Structure & Algorithm
 
-* [Arrays](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/01%5D.%20Array)
+* [Arrays](https://github.com/shubhanshurav/Tech-Interview-Preperations/tree/master/DSA-Questions/Arrays)
 * [2D Arrays](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/02%5D.%202D%20Array)
-* [String](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/04%5D.%20Strings)
+* [String](https://github.com/shubhanshurav/Tech-Interview-Preperations/tree/master/DSA-Questions/String)
 * [Hashing](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/05%5D.%20Hashing)
-* [Recursion](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/03%5D.%20Recursion)
-* [Linked List](https://github.com/shubhanshurav/Complete-MAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/06%5D.%20Linked%20List/C%2B%2B)
+* [Recursion](https://github.com/shubhanshurav/Tech-Interview-Preperations/tree/master/DSA-Questions/Recursion)
+* [Linked List](https://github.com/shubhanshurav/Tech-Interview-Preperations/tree/master/DSA-Questions/Linked-List)
 * [Doubly Linked List](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/07%5D.%20Doubly%20Linked%20List)
 * [Circular Linked List](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/08%5D.%20Circular%20Linked%20List)
 * [Stack](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/09%5D.%20Stack)
 * [Queue](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/11%5D.%20Deueue)
 * [Dequeue](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/11%5D.%20Deueue)
 * [Trees](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/12%5D.%20Tree)
-* [Binary Search Tree](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/13%5D.%20Binary%20Search%20Tree)
+* [Binary Search Tree](https://github.com/shubhanshurav/Tech-Interview-Preperations/tree/master/DSA-Questions/Binary-Search-Tree)
 * [Heap](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/14%5D.%20Heap)
 * [Graph](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/15%5D.%20Graph) 
 * [Tries](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/1%5D.%20Data%20Structures/16%5D.%20Trie)
@@ -29,7 +29,7 @@
 * [Mathematical Algorithm](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/04%5D.%20Mathematical%20Algorithms)
 * [Geomatric Algorithm](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/05%5D.%20Geometric%20Algorithms)
 * [Greedy Algorithm](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/06%5D.%20Greedy)
-* [Dynamic Programming](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/07%5D.%20Dynamic%20Programming)
+* [Dynamic Programming](https://github.com/shubhanshurav/Tech-Interview-Preperations/tree/master/DSA-Questions/Dynamic-Programming)
 * [Divide & Conquer](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/08%5D.%20Divide%20and%20Counqer)
 * [Backtracking](https://github.com/shubhanshurav/The-Complete-FAANG-Preparation/tree/master/1%5D.%20DSA%20%2B%20CP/1%5D.%20DSA/2%5D.%20Algorithms/09%5D.%20Backtracking)
 
